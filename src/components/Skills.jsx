@@ -24,17 +24,13 @@ const Skills = () => {
     [70, 130, 180],  // Postgresql
     [57, 255, 20],   // Three.js - Neon Green
     [30, 41, 59],    //Next.js - Slate Blue
-    [255, 0, 128],   // python
-    [255, 0, 255],   // AI 
+    [255, 0, 128],   // Framer Motion - Vibrant Pink
+    [0, 199, 255],   // Figma - Vivid Cyan/Blue
     [104, 160, 99],  // Node.js - Medium Green
     [51, 51, 51],    // Express.js - Dark Gray
     [255, 136, 0],   // Postman - Bright Orange
     [242, 101, 34],  // Java - Logo Orange
-    [255, 201, 167],   //React Native - Bright Teal 
-    [255, 166, 17] // Firebase - Dark Tangerine
-    [255, 136, 18],   // Postman - Bright Orange
-    [242, 101, 34],  // Java - Logo Orange
-    [255, 201, 167],   //React Native - Bright Teal 
+    [0, 201, 167],   //React Native - Bright Teal 
     [255, 166, 17] // Firebase - Dark Tangerine
   ];
 
@@ -45,18 +41,12 @@ const Skills = () => {
     <FaJs key="js" className="text-white text-xl" />,
     <SiTypescript key="ts" className="text-white text-xl" />,
     <img
-      key="Devops"
-      src="/dev.png"
-      alt="Devops"
+      key="gsap"
+      src="/Gsap.png"
+      alt="Gsap"
       className="w-9 h-9 p-1 object-contain"
     />,
     <FaPython key="python" className="text-white text-xl" />,
-    <img
-      key="Python"
-      src="/python.png"
-      alt="python"
-      className="w-15 h-15 p-1 object-contain"
-    />,
     <img
       key="flask"
       src="/Flask.png"
@@ -88,9 +78,15 @@ const Skills = () => {
       className="w-15 h-15 p-1 object-contain"
     />,
     <img
-      key="AI_logo"
-      src="/Ai.png"
-      alt="AI"
+      key="motion_logo"
+      src="/motion_logo().png"
+      alt="motion"
+      className="w-15 h-15 p-1 object-contain"
+    />,
+    <img
+      key="figma_logo"
+      src="/figma_logo.png"
+      alt="figma"
       className="w-13 h-12 p-1 object-contain"
     />,
     <img
@@ -100,9 +96,9 @@ const Skills = () => {
       className="w-13 h-12 p-1 object-contain"
     />,
     <img
-      key="ci-cd"
-      src="/cicd.png"
-      alt="CI-CD"
+      key="ExpressJS_logo"
+      src="/ExpressJS_Logo.png"
+      alt="ExpressJS"
       className="w-16 h-11 p-1 object-contain"
     />,
     <img
@@ -124,53 +120,11 @@ const Skills = () => {
       className="w-11 h-12 px-1 pb-1 object-contain"
     />,
     <img
-      key="Cloud"
-      src="/cloud.png"
-      alt="Cloud"
+      key="Firebase_Logo"
+      src="/firebase_logo.png"
+      alt="React_Native"
       className="w-11 h-12 px-1 pb-1 object-contain"
     />,
-    <img
-      key="css"
-      src="/css.png"
-      alt="css"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="grafana"
-      src="/grafana.png"
-      alt="grafana"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="prametheus"
-      src="/pram.png"
-      alt="pram"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="ML"
-      src="/ML.png"
-      alt="ML"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="LLM"
-      src="/llm.png"
-      alt="LLM"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-      <img
-      key="html"
-      src="/html.png"
-      alt="html"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />,
-    <img
-      key="rag"
-      src="/rag.png"
-      alt="rag"
-      className="w-11 h-12 px-1 pb-1 object-contain"
-    />, 
   ];
 
   const audioSources = [
