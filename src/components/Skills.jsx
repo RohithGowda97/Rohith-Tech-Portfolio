@@ -85,7 +85,7 @@ const Skills = () => {
     />,
     <img
       key="AI_logo"
-      src="/Assets/Ai.png"
+      src="/Ai.png"
       alt="AI"
       className="w-13 h-12 p-1 object-contain"
     />,
