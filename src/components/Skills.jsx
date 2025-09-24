@@ -42,7 +42,7 @@ const Skills = () => {
     <SiTypescript key="ts" className="text-white text-xl" />,
     <img
       key="AI"
-      src="/ai.png"
+      src="/Ai.png"
       alt="AI"
       className="w-9 h-9 p-1 object-contain"
     />,
