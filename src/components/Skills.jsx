@@ -84,8 +84,8 @@ const Skills = () => {
       className="w-15 h-15 p-1 object-contain"
     />,
     <img
-      key="figma_logo"
-      src="/figma_logo.png"
+      key="AI_logo"
+      src="/Ai.png"
       alt="figma"
       className="w-13 h-12 p-1 object-contain"
     />,
