@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="about-container relative flex min-h-[50rem] md:min-h-screen w-full items-center justify-center bg-black text-center py-20 px-4">
       <Helmet>
-        <title>About Rohith R | Full Stack Developer & AI Enthusiast</title>
+        <title> Rohith R | Full Stack Developer & AI Enthusiast</title>
         <meta name="description" content="Learn more about Rohith R, a passionate full-stack developer with expertise in React, Node.js, AI/ML, UI/UX design, and entrepreneurial ventures. Discover my journey and goals." />
         <link rel="canonical" href="https://Rohith-Tech-Portfolio/about" />
         <meta property="og:title" content="Rohith R | Full Stack Developer" />
