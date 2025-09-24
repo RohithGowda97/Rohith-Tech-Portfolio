@@ -86,7 +86,7 @@ const Skills = () => {
     <img
       key="AI_logo"
       src="/Ai.png"
-      alt="figma"
+      alt="AI"
       className="w-13 h-12 p-1 object-contain"
     />,
     <img
