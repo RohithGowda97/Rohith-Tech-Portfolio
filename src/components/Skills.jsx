@@ -25,7 +25,7 @@ const Skills = () => {
     [57, 255, 20],   // Three.js - Neon Green
     [30, 41, 59],    //Next.js - Slate Blue
     [255, 0, 128],   // Framer Motion - Vibrant Pink
-    [0, 199, 255],   // Figma - Vivid Cyan/Blue
+    [255, 199, 255],   // Figma - Vivid Cyan/Blue
     [104, 160, 99],  // Node.js - Medium Green
     [51, 51, 51],    // Express.js - Dark Gray
     [255, 136, 0],   // Postman - Bright Orange
