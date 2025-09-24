@@ -41,9 +41,9 @@ const Skills = () => {
     <FaJs key="js" className="text-white text-xl" />,
     <SiTypescript key="ts" className="text-white text-xl" />,
     <img
-      key="gsap"
-      src="/Gsap.png"
-      alt="Gsap"
+      key="AI"
+      src="/ai.png"
+      alt="AI"
       className="w-9 h-9 p-1 object-contain"
     />,
     <FaPython key="python" className="text-white text-xl" />,
@@ -60,9 +60,9 @@ const Skills = () => {
       className="w-9 h-9 p-1 object-contain"
     />,
     <img
-      key="postgresql"
-      src="/postgresql.png"
-      alt="Postgresql"
+      key="aws"
+      src="/aws.png"
+      alt="aws"
       className="w-9 h-9 p-1 object-contain"
     />,
     <img
@@ -78,9 +78,9 @@ const Skills = () => {
       className="w-15 h-15 p-1 object-contain"
     />,
     <img
-      key="motion_logo"
-      src="/motion_logo().png"
-      alt="motion"
+      key="dev"
+      src="/dev.png"
+      alt="dev"
       className="w-15 h-15 p-1 object-contain"
     />,
     <img
